@@ -1,0 +1,27 @@
+.nav-enlace{
+    display: inline-block;
+    background: F6851Frgba(248, 248, 248, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: #f89f50;
+    border-radius: 30px;    
+}
+nav{
+    background: #F6851F;
+    padding: 10px;
+    display:flex;
+    justify-content: flex-end;
+
+}
+.fuente{font-family: 'Overpass', sans-serif;}
+@media (max-width: 600px){
+    nav{
+        background: rgb(194, 68, 68);
+        padding: 10px;
+        display:flex;
+        justify-content: flex-end;
+    }
+}
