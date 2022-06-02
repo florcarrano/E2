@@ -1,3 +1,8 @@
+nav{
+    background: #ff7700;
+    padding: 30px;
+    }
+
 .nav-enlace{
     display: inline-block;
     background: F6851Frgba(248, 248, 248, 0);
@@ -9,19 +14,8 @@
     background: #f89f50;
     border-radius: 30px;    
 }
-nav{
-    background: #F6851F;
-    padding: 10px;
-    display:flex;
-    justify-content: flex-end;
 
+.fuente{
+    font-family: 'Oxygen', sans-serif;
 }
-.fuente{font-family: 'Overpass', sans-serif;}
-@media (max-width: 600px){
-    nav{
-        background: rgb(194, 68, 68);
-        padding: 10px;
-        display:flex;
-        justify-content: flex-end;
-    }
-}
+@media (max-width: 600px)
