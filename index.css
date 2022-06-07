@@ -1,15 +1,26 @@
+*{
+    margin: 0%;
+}
+
 nav{
     background: #ff7700;
-    padding: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+  
     }
 
 .nav-enlace{
-    display: inline-block;
+    display: flex;
+    justify-content:left;
+    align-items:left;
     background: F6851Frgba(248, 248, 248, 0);
     color: rgb(255, 255, 255);
-    padding: 10px 30px;
-    text-decoration: none;
-}
+    padding: 10px 20px;
+    text-decoration:none
+   
+ }
 .nav-enlace:hover{
     background: #f89f50;
     border-radius: 30px;    
@@ -17,5 +28,81 @@ nav{
 
 .fuente{
     font-family: 'Oxygen', sans-serif;
+    }
+
+.imagen{
+    width: 10%;
+    line-height: 10px;
+    
+}
+.conteiner-header{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.conteiner-contactanos{
+    width: 50%;
+   
+    
+}
+.conteinter-contactanos h1 {
+    font-family: 'Oxygen-Bold',
+    margin-top: 5px;
+}
+
+.conteiner-contactanos p {
+    font-size: 1em;
+    width: 50%;
+    
+
+}
+
+.TITULO{
+    font-family:'OxygenBold700',
+    font-size: 5em;    
+    font-weight
+    height:20%;   
+    
+}
+
+.gifimagen{
+    width: 40%;
+    display: flex;
+    justify-content:left;
+    align-items: ;
+}
+
+.button{
+    width: 30%;
+    color: #ffffff;
+    background-color: #ff7700;
+    cursor: pointer;
+    height: 50px;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    margin-top: 20px;
+   font-size: 1em;
+   font-family:'OxygenBold700',
+    
+
+}
+.button:hover{
+    background-color: #ff0000;
+    width: 30%;
+    color: #ffffff;
+    cursor: pointer;
+    height: 50px;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    margin-top: 20px;
+   font-size: 1em;
 }
 @media (max-width: 600px)
