@@ -3,7 +3,7 @@
 }
 
 nav{
-    background: #ff7700;
+    background: #f15a22;
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -12,12 +12,11 @@ nav{
     }
 
 .nav-enlace{
-    display: flex;
-    justify-content:left;
-    align-items:left;
+    text-align:unset;
+    align-self: flex-end;
     background: F6851Frgba(248, 248, 248, 0);
     color: rgb(255, 255, 255);
-    padding: 10px 20px;
+    padding: 10px 30px 10px 30px;
     text-decoration:none
    
  }
@@ -32,77 +31,87 @@ nav{
 
 .imagen{
     width: 10%;
-    line-height: 10px;
-    
+    line-height: 10px;    
 }
-.conteiner-header{
-    width: 100%;
-    margin-top: 10px;
+.body{
+    font-family: Arial, 'Helvetica', sans-serif;
+    padding: 0;
+    margin:0
+}
+.conteiner{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 40px;
-}
+    max-width: 100%;
+    height: 80vh;
+    background: #f15a22;
 
-.conteiner-contactanos{
-    width: 50%;
-   
-    
-}
-.conteinter-contactanos h1 {
-    font-family: 'Oxygen-Bold',
-    margin-top: 5px;
-}
-
-.conteiner-contactanos p {
-    font-size: 1em;
-    width: 50%;
-    
 
 }
+.conteinersegundo{
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: left;
 
-.TITULO{
-    font-family:'OxygenBold700',
-    font-size: 5em;    
-    font-weight
-    height:20%;   
-    
+
 }
-
-.gifimagen{
-    width: 40%;
-    display: flex;
-    justify-content:left;
-    align-items: ;
+.box{
+    flex-basis: 50%;
+    color: #ffff;
+    text-align: left;
+    align-self: center;
+}
+.h1{
+    font-size: 50px;
+    line-height: .9;
+    padding-bottom: 20px;
+}
+.p{
+    font-size: 15px;
+    line-height: 1.2;
 }
 
 .button{
-    width: 30%;
-    color: #ffffff;
-    background-color: #ff7700;
-    cursor: pointer;
-    height: 50px;
-    padding: 10px 20px;
-    border: 0;
-    outline: 0;
-    border-radius: 20px;
-    margin-top: 20px;
-   font-size: 1em;
-   font-family:'OxygenBold700',
-    
+    display: flex;
+    margin-top: 30px;
+    flex-flow: row wrap;
 
 }
-.button:hover{
-    background-color: #ff0000;
-    width: 30%;
-    color: #ffffff;
-    cursor: pointer;
-    height: 50px;
-    padding: 10px 20px;
-    border: 0;
-    outline: 0;
+.boton1{
+    flex-basis: 30%;
+    border: solid 2px;
     border-radius: 20px;
-    margin-top: 20px;
-   font-size: 1em;
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:white
+      
+}
+
+.boton2{
+    flex-basis: 30%;
+    background: white;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #f15a22
+}
+.boton1:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+.boton2:hover{
+    background-color: rgba(255, 255, 255, .3);
+    color:white
+}
+.imagen2{
+    display:flex;
+    justify-content: right;
+    align-items:flex-end
+
 }
 @media (max-width: 600px)
